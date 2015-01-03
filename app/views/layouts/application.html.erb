@@ -7,6 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <h1> <%= link_to("Car Listings", cars_path) %> </h1>
+  <%= link_to("New Car", new_car_path) %>
+  <%= link_to("View Manufacturers", manufacturers_path) %>
+  <%= link_to("New Manufacturer", new_manufacturer_path) %>
   <div class="notice">
     <%= notice %>
   </div>

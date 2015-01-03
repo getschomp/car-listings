@@ -15,7 +15,7 @@ feature "Add a type manufacturer", %q{
     to the index of manufacturers
     } do
 
-      scenario "salesperson fills in all feilds and creates a type" do
+      scenario "salesperson fills in all feilds and creates a manufacturer" do
         # manufacturer = FactoryGirl.build(:manufacturer)
         manufacturer = Manufacturer.new(name: "kia", country: "korea")
         visit new_manufacturer_path
